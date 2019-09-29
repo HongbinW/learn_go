@@ -1,12 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a86dd033-751c-4361-b5c5-b0a301efef83" name="Default Changelist" comment="" />
+    <list default="true" id="a86dd033-751c-4361-b5c5-b0a301efef83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/internal/commandinfo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/internal/commandinfo_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/internal/redistest/testdb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/conn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/conn_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/go16.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/go17.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/go18.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/list_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pool17.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pool17_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pool_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pubsub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pubsub_example_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pubsub_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/redis_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/reply.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/reply_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/scan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/scan_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/script.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/script_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/test_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redis/zpop_example_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redisx/connmux.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redisx/connmux_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../github.com/garyburd/redigo/redisx/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/basic/SSG_IO/ReaderWriter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/basic/SSG_IO/example/copy/copy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/basic/SSG_IO/example/statistics/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/basic/SSG_IO/serialize/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/basic/goroutine/channel/question/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/basic/goroutine/cpu/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/basic/goroutine/example/demo1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/SGG_FamiliyAccount/familiyAccount/familyAccount.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/SGG_FamiliyAccount/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/SGG_FamiliyAccount/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/client/classifyProcess/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/client/classifyProcess/smsProcess.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/client/classifyProcess/userProcess.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/common/message.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/server/classifyProcess/smsProcess.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/server/classifyProcess/userProcess.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/server/control.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/server/model/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/server/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/server/model/userDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/util/pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/item/chat/util/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/redis/redisDemo/redisDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/redis/redisPool/redisPool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/socket/tcpDemo/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/socket/tcpDemo/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/socket/tcpDemo/test/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSG/socket/tcpDemo/test/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/socket/book/ip/ip.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/collection/maps/nonrepeating_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/complement/duotai/duotai.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/errorHandling/defer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/errorHandling/filelistringserver/errWrapper_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/errorHandling/filelistringserver/filelist/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/errorHandling/filelistringserver/recover/recover.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/errorHandling/filelistringserver/web.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/functional/adder/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/functional/fib.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/functional/fib/fib.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/goroutine/channel/channelDemo/channalDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/goroutine/channel/done/done.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/goroutine/channel/done/waitgroup/waitgroupDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/goroutine/channel/traverseTree/traverse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/goroutine/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/goroutine/select/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/goroutine/sushu/sushu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/interface/mock/mockRetriver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/struct/tree/traversal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_Go/tests/triangle_test/triangle_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_IO/basicIO/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_IO/bufio/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_IO/calcuteRows/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mooc_IO/readbmp/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/basic/basic.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/basic/basic/basic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/branch/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/basic/branch/abc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/branch/branch.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/basic/branch/branch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/func/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/basic/func/func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/loop/loop.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/basic/loop/loop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/ptr/ptr.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/basic/ptr/ptr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/string/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/basic/string/strings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/arrays/arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/collection/arrays/arrays.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/maps/maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/collection/maps/maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/sliceops/sliceops.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/collection/sliceops/sliceops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/slices/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/collection/slices/slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/interface/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/mock/mockRetriver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/real/retriever.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/interface/real/retriever.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struct/queue/entry/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/struct/queue/entry/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struct/queue/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/struct/queue/queue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struct/tree/entry/entry.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/struct/tree/entry/entry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struct/tree/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/mooc_Go/struct/tree/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struct/tree/traversal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,21 +142,33 @@
     </option>
   </component>
   <component name="GOROOT" path="G:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1QgSuI63tXbj57VibpK8QikHWqJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="go.autoimport" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\Go\src\learn_go\struct" />
-      <recent name="C:\Users\admin\Go\src\learn_go\collection\slices" />
-      <recent name="C:\Users\admin\Go\src\learn_go\collection\sliceops" />
-      <recent name="C:\Users\admin\Go\src\learn_go\collection\maps" />
-      <recent name="C:\Users\admin\Go\src\learn_go\collection\arrays" />
+      <recent name="C:\Users\admin\Go\src\learn_go\SSG\item\chat\client" />
+      <recent name="C:\Users\admin\Go\src\learn_go\mooc_Go" />
+      <recent name="C:\Users\admin\Go\src\learn_go\book" />
+      <recent name="C:\Users\admin\Go\src\learn_go\SSG\basic" />
+      <recent name="C:\Users\admin\Go\src\learn_go\SSG\item" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Go\src\learn_go" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -46,63 +183,88 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build learn_go/interface">
-    <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build learn_go/SSG/item/chat/server">
+    <configuration name="go build control.go server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/collection/arrays/arrays.go" />
+      <filePath value="$PROJECT_DIR$/SSG/item/chat/server/control.go|$PROJECT_DIR$/SSG/item/chat/server/server.go" />
       <package value="learn_go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build entry.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tree/entry/entry.go" />
-      <package value="learn_go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build learn_go/interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build learn_go/SSG/item/chat/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/interface/main.go" />
-      <package value="learn_go/interface" />
+      <filePath value="$PROJECT_DIR$/SSG/item/chat/client/client.go" />
+      <package value="learn_go/SSG/item/chat/client" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build learn_go/queue/entry" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build learn_go/SSG/item/chat/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/queue/entry/main.go" />
-      <package value="learn_go/queue/entry" />
+      <package value="learn_go/SSG/item/chat/server" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build learn_go/SSG/redis/redisDemo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/SSG/redis/redisDemo/redisDemo.go" />
+      <package value="learn_go/SSG/redis/redisDemo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/queue/entry/main.go" />
+      <filePath value="$PROJECT_DIR$/SSG/item/chat/server/server.go" />
       <package value="learn_go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build learn_go/SSG/redis/redisDemo" />
+      <item itemvalue="Go Build.go build learn_go/SSG/item/chat/client" />
+      <item itemvalue="Go Build.go build server.go" />
+      <item itemvalue="Go Build.go build control.go server.go" />
+      <item itemvalue="Go Build.go build learn_go/SSG/item/chat/server" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build learn_go/interface" />
-        <item itemvalue="Go Build.go build arrays.go" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build entry.go" />
-        <item itemvalue="Go Build.go build learn_go/queue/entry" />
+        <item itemvalue="Go Build.go build learn_go/SSG/item/chat/server" />
+        <item itemvalue="Go Build.go build learn_go/SSG/item/chat/client" />
+        <item itemvalue="Go Build.go build control.go server.go" />
+        <item itemvalue="Go Build.go build server.go" />
+        <item itemvalue="Go Build.go build learn_go/SSG/redis/redisDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learn_go$TestSubstr_in_learn_go_collection_maps.out" NAME="TestSubstr in learn_go/collection/maps Coverage Results" MODIFIED="1568965763573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
